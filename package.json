@@ -10,9 +10,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest"
-     "start": "node index.js",
+    "test": "jest",
+    "start": "node index.js"
+
   },
-  "author": "jrw@mit.edu",
+  "author": "mmjp17@yahoo.com",
   "license": "MIT"
 }
