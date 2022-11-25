@@ -2,17 +2,19 @@
   "name": "hello",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "http_server.js",
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.10.0",
     "@actions/github": "^3.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "jest": "^26.0.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest",
-    "start": "node index.html"
-
+    "build": "npm install",
+    "start": "node http_server.js",
+    "test": "jest"
   },
   "author": "jrw@mit.edu",
   "license": "MIT"
